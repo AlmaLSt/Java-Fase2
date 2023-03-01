@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/S1/e1" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../Gradle/gradle-8.0.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/S1/e1" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/S1/e2" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../Gradle/gradle-8.0.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/S1/e2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/S1/e4" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../Gradle/gradle-8.0.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/S1/e4" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/S1/postwork" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../Gradle/gradle-8.0.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/S1/postwork" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/S1/r1" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../Gradle/gradle-8.0.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/S1/r1" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/S1/r2" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../Gradle/gradle-8.0.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/S1/r2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
