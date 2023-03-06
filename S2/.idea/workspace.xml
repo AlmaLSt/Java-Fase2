@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ca421d5-45c0-4010-a60c-cfee75c18f5d" name="Changes" comment="" />
+    <list default="true" id="1ca421d5-45c0-4010-a60c-cfee75c18f5d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Postwork/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Postwork/src/main/java/Cobertura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Postwork/src/main/java/Galleta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Postwork/src/main/java/Granola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Postwork/src/main/java/Helado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Postwork/src/main/java/HeladoDecoratorPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Postwork/src/main/java/HeladoSuave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Postwork/src/main/java/HeladoSuaveDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Postwork/src/main/java/Mermelada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Postwork/src/main/java/Topping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorExamples/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorExamples/src/main/java/Brocoli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorExamples/src/main/java/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorExamples/src/main/java/Meat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorExamples/src/main/java/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorExamples/src/main/java/PizzaDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorExamples/src/main/java/RomaTomatoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorExamples/src/main/java/SimplyNonVegPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorExamples/src/main/java/SimplyVegPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorExamples/src/main/java/TestDecoratorPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/E1/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/E1/src/main/java/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/E1/src/test/java/CalculadoraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/e2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/e2/src/main/java/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/e2/src/main/java/CalculadoraDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/e2/src/test/java/CalculadoraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/r2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/r2/src/main/java/CalculadoraService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/r2/src/main/java/MathApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S3/r2/src/test/java/MathApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../decore2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../decore2/src/main/java/DecoratorPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../decore2/src/main/java/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../decore2/src/main/java/RedShapeDecor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../decore2/src/main/java/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../decore2/src/main/java/ShapeDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,18 +52,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2MODvBXCuKMnhRmUUXFAw4zgeWQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alma/Documents/Fase 2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Alma/Documents/ejemplo2"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
