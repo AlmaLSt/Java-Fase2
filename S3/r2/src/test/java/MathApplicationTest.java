@@ -3,6 +3,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import static org.mockito.Mockito.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -11,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MathApplicationTest {
 
     @Mock
-    CalculadoraService calculadoraService;
+    CalculadoraService calcService;
 
     @InjectMocks
     MathApplication mathApplication;
@@ -19,7 +20,10 @@ class MathApplicationTest {
     @Test
     void add() {
 
-        when(CalculadoraService.add(10,20)).thenReturn(30.0))
+        when(calcService.add(10,20)).thenReturn(30.0);
+        assertEquals(mathApplication.add(10, 20), 30, 0);
+
+        verify(calcService).add(10.0, 20.0);
     }
 
     @Test
