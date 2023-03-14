@@ -35,23 +35,23 @@ public class Postwork5Application implements CommandLineRunner {
 
 
 		System.out.println("Ingresa tu numero de telefono");
+		String telefono = scanner.nextLine();
+		if (telefono.matches("\\d{3}[ -]?\\d{3}[ -]?\\d{4}")) {
 
-		if (scanner.hasNext("\\d{3}[- ]?\\d{3}[- ]?\\d{4}$")) {
-			String telefono = scanner.nextLine();
 			System.out.println("Numero valido " + telefono);
 
 			String reemplazaTel = telefono.replaceAll("[^0-9]", "");
 			String formateado = String.format("(%s)-%s-%s", reemplazaTel.substring(0, 2), reemplazaTel.substring(2, 6), reemplazaTel.substring(6, 10));
 
 			persona.setTelefono(formateado);
+			persona.setNombre(nombre);
+			persona.setApellido(apellido);
+
+			System.out.println("Hola " + persona.getNombre() + " " + persona.getApellido() + " tu numero de telefono es " + persona.getTelefono());
 
 		} else {
-			System.out.println("Numero invalido, asegurate que este en el siguiente formato ###-###-####");
+			System.out.println("Numero invalido, asegurate que sean 10 digitos en el siguiente formato ###-###-####");
 		}
 
-		persona.setNombre(nombre);
-		persona.setApellido(apellido);
-
-		System.out.println("Hola " + persona.getNombre() + " " + persona.getApellido() + " tu número de telefono es " + persona.getTelefono());
 	}
 }
