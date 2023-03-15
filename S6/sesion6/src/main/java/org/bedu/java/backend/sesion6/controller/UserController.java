@@ -1,6 +1,9 @@
 package org.bedu.java.backend.sesion6.controller;
 
+import org.bedu.java.backend.sesion6.model.Direccion;
 import org.bedu.java.backend.sesion6.model.User;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -8,14 +11,24 @@ import org.springframework.web.bind.annotation.*;
 public class UserController {
 
     @PostMapping
-    public String creaUsuario(@RequestBody User user){
+   public ResponseEntity<User> creaUsuario(@RequestBody User user){
         System.out.println("creaUsuario");
         System.out.println("Name: " + user.getName());
         System.out.println("Lastname: " +user.getLastname());
+        System.out.println("User: " + user.getUsername());
         System.out.println("Email: " + user.getEmail());
         System.out.println("Password: " + user.getPassword());
 
-        return "Usuario creado!";
+        Direccion direccion = new Direccion();
+        direccion.setStreet("Cordoba");
+        direccion.setNumber("86");
+        direccion.setZipCode("58963");
+
+        user.setDireccion(direccion);
+
+//        return ResponseEntity.status(HttpStatus.CREATED).body(user);
+
+        return ResponseEntity.status(HttpStatus.CREATED).eTag("BETO").body(user);
     }
 
     @PostMapping("/{id}")

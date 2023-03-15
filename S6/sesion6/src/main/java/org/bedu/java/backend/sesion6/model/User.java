@@ -8,6 +8,12 @@ public class User {
     private String email;
     private String password;
 
+    private Direccion direccion;
+
+
+
+
+
 
     public String getName() {
         return name;
@@ -25,14 +31,6 @@ public class User {
         this.lastname = lastname;
     }
 
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUser(String username) {
-        this.username = username;
-    }
-
     public String getEmail() {
         return email;
     }
@@ -47,5 +45,20 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public void setDireccion(Direccion direccion) {
+        this.direccion = direccion;
+    }
+    public Direccion getDireccion() {
+        return direccion;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 }
